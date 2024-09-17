@@ -17,7 +17,8 @@ if not api_key:
 client = OpenAI(api_key=api_key)
 
 # 어시스턴트 ID
-ASSISTANT_ID = "asst_YfPptwUj4Jky7AVIfd0hPR7X"
+#ASSISTANT_ID = "asst_YfPptwUj4Jky7AVIfd0hPR7X"
+ASSISTANT_ID = "asst_o8bfAyGKf7mx6zYdrMXsIEFT"
 
 # 세션 상태 초기화
 if 'thread_id' not in st.session_state:
